@@ -179,7 +179,7 @@ def main(username,password,ass_id_file,folder_path,ref_id,assignment_name=None):
 if __name__ == "__main__":
 
     # Load credentials from the given JSON file
-    creds = load_credentials(cred_file="credentials.json")
+    creds = load_credentials(cred_file="credentials_sample.json")
 
     # User data to be used for login
     username = creds["username"]
