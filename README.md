@@ -13,7 +13,7 @@ Everything is adjusted to the German language.
 
 
 ## Installation
-Use the `requiremnts.txt` to install the required packages, further more [selenium](https://www.selenium.dev) is set up to be used by the Chrome browser
+Use the `requirements.txt` to install the required packages, further more [selenium](https://www.selenium.dev) is set up to be used by the Chrome browser
 
 ## Usage
 ### Login
