@@ -107,9 +107,12 @@ def upload_assignments(driver,student_data,ref_id,ass_id):
         # Set upload-field to file path
         upload_input.send_keys(file_path)
 
-        # 4. click upload button
+        # 5. click upload button
         upload_button = driver.find_element(By.NAME, 'cmd[uploadFile]')
         upload_button.click()
+
+        # 6. waiz a few seconds for the upload to happen
+        time.sleep(10)
         print(f"Uploaded: {file_path}")
 
 
